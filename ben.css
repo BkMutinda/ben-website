@@ -1,0 +1,495 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+background-image: url(oregon22.jpg);
+background-position: center;
+background-size: cover;
+height: 100vh;
+}
+.navbar{
+    height: 150px;
+    width: 1350px;
+    background-color: white;
+}
+.navbar p1{
+    float: right;
+    margin-right: 100px;
+    font-size: 20px;
+    color: #4b3205;
+    margin-top: 20px;
+}
+.navbar p2{
+    float: right;
+    margin-right: 100px; 
+    margin-top: 25px; 
+    color: darkorange; 
+}
+
+.logo{
+    background-image:url(logo.jpg);
+    background-repeat: no-repeat;
+    height: 183px;
+
+}
+.nav1{
+    position: absolute;
+    float: left;
+    height: 50px;
+    border-radius: 6px;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.nav1 p{
+    margin-top: 5px;
+    margin-left: 60px;
+    position: relative;
+    display: inline-flex;
+}
+#demo{
+    float: right;
+    margin-left: 100px;
+    gap: 30px;
+    font-size: 20px;
+}
+.marquee{
+    background-color: burlywood;
+    color: blue;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    height: 30px;
+    padding: 2;
+}
+.marquee p{
+    margin-top: 3px;
+}
+.menu{
+    position: relative;
+    float: left;
+    margin-top: 70px;
+    margin-left: 358px;
+    height: 30px;
+}
+.menu ul{
+    display: flex;
+    gap: 70px;
+    height: 35px;
+    width: 970px;
+    border-radius: 5px;
+}
+.menu ul li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1d2218;
+}
+.menu ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #252b20;
+}
+.menu ul li:hover{
+    border-bottom: 3px solid ;
+    transition: step-end 2ms left;
+    
+}
+.menu ul{
+    color: #0d0e0d;
+}
+.menu ul li a:hover{
+    color: rgba(27, 80, 255, 0.952);
+}
+.menu ul li:hover .dropdown{
+    display: block;
+    position: relative;
+    float: left;
+}
+.dropdown{
+    display: none;
+    position: relative;
+    height: 300px;
+    width: 140px;
+    border-radius: 12px;
+    background-color: #5d81634f;
+}
+.dropdown ul{
+    display: block;
+    position: absolute;
+    padding: 10px;
+    margin-top: 8px;
+    margin-left: 15px;
+    width: 90px;
+}
+.dropdown ul li{
+    gap: 70px;
+    padding: 8px 6px;
+    border-radius: 12px;
+    margin-top: 8px;
+    color: #e25e36;
+    width: 80px;
+}
+.dropdown ul li:hover{
+    padding: 9px;
+    color: #1ef50a;  
+}
+.dropdown ul li a:hover{
+    color: #77f32f;
+}
+.search{
+    float: left;
+    width: 400px;
+    margin-left: 1000px;
+}
+.srch{
+    margin-top: 10px;
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background-color: #f7f2f225;
+    font-size: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 2px solid black;
+}
+.btn{
+    margin-top:10px;
+    font-family: 'Times New Roman';
+    width: 60px;
+    height: 40px;
+    background-color: #f0ecec25;
+    border: 2px solid black;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.search:focus{
+    outline: none;
+}
+.section{
+    border: 3px solid #000;
+    font-weight: bold;
+    font-size: 12px;
+    font-family:'Times New Roman';
+    display: flex;
+    float: left;
+    margin-left: 1px;
+    height: 200px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius: 20px;
+    border-radius: 20px;
+    background-color: #d8b7c9;
+    color: #000;
+    margin-top: 1000px;
+}
+.section p{
+    float: left;
+    margin-left: 5px;
+    margin-top: 7px;
+}
+.button{
+    margin-top: 80px;
+    float: left;   
+    margin-left: 10px;
+}
+.btnn{
+    background-color: #00f;   
+    float: left;
+}
+.menu1{
+    display: none;
+}
+.menu1 ul{
+    display: block;
+    position: absolute;
+}
+.menu1 ul li:hover{
+    display: block;
+}
+.section1{
+    height: 400px;
+    display: inline-flex;
+}
+.pics{
+    display: inline-flex;
+    margin-top: 40px;
+    float: left;
+    margin-left: 100px;
+    gap: 60px;
+}
+.pic1{
+    height: 300px;
+    background-color: #fafdfa;
+    border:9px #000 ;
+}
+.pic1 img{
+    height: 180px;
+    width: 200px;
+    border-radius:  40px 40px;
+}
+.pic2{
+    height: 300px;
+    background-color: #fafdfa;
+    width: 200px;
+}
+.pic2 img{
+    width: 200px;
+    border-radius:  40px 40px;
+}
+.pic3{
+    height: 300px;
+    background-color: #fafdfa;
+    width: 200px;
+}
+.pic3 img{
+    width: 200px;
+    border-radius:  40px 40px;
+    
+}
+.pic3 .p1{
+    z-index: -1000;
+}
+.section1 h2{
+    height: 40px ;
+    width: auto;
+    margin-top: 50px;
+    padding: 3px 3px ;
+    float: left;
+    margin-left: 100px;
+}
+.section1 h2:hover{
+    border-bottom: 3px solid blue;
+}
+.section1 h2 a{
+    color: rgb(92, 114, 92);
+    text-decoration: none;
+}
+.section1 h3{
+    float: left;
+    margin-left: 100px;
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+}
+.section1 h3 a{
+    text-decoration: none;
+}
+.section2{
+    background-color: orange;
+    height: 500px;;
+}
+.section2 img{
+    height: 500px;
+}
+.section_2{
+    height: 150px;
+    background-color:#0e0d0d;
+}
+.section_2 .B p{
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    font-size: xx-large;
+}
+.section_2 .B a{
+    float: right;
+    font-size: 30px;
+    text-decoration: none;
+}
+.words{
+    float: right;
+    margin-top: 25px;
+    margin-right: 50px;
+    width: 450px;
+}
+.words h1{
+
+    border-bottom: 2px solid grey;
+}
+.line1{
+    margin-top: 10px;
+    font-size: 27px;
+}
+.w1{
+    font-size: large;
+}
+.w1 a{
+    text-decoration: none;
+}
+.section3{
+    background-color: rgb(134, 155, 134);
+    height: 750px;
+}
+.section3 p{
+    float: left;
+    z-index: 100;
+}
+.section4{
+    height: 350px;
+    background-color: rgb(161, 165, 161);
+}
+.section4 h2{
+    font-family: Architects Daughter;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: xx-large;
+    border-bottom: 3px solid blue;
+}
+.section4 h2:hover{
+    border-top: 3px solid orange;
+    border-left: 3px solid orange;
+}
+.section4 p2{
+    margin-top: 70px;
+    float: left;
+    margin-left: 1100px;
+}
+.section4 p1 a, .section4 p2 a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Architects Daughter;
+    font-weight: bold;
+}
+.section4 .picsB{
+    float: left;
+    display: inline-flex;
+    margin-left:  70px;
+    gap: 30px;
+    margin-top: 30px;
+}
+.picsB p{
+    font-weight: bold;
+}
+.picsB p a{
+    text-decoration: none;
+}
+.section5{
+    height: 450px;
+    background-color:  #57d8d263;
+}
+.section5 p{
+    font-size: xx-large;
+    float: left;
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
+.footer{
+    float: right;
+    margin-right: 80px;
+    margin-top: 60px;
+}
+
+.section5_icon{
+    margin-left: 900px;
+    gap: 50px;    
+}
+.section5 h2{
+    float: left;
+    margin-left: 80px;
+    padding-top: 15px;
+}
+.section5 h3{
+    padding-top: 60px;
+    padding-left: 30px;
+}
+.section5 select{
+    position: absolute;
+    width: 90px;
+    float: left;
+    margin-left: 100px;
+}
+.section5_icon i{
+    width: 60px;
+    height: 60px;
+    padding-top: 100px;
+}
+.section5 img{
+    float: left;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+aside{
+    float: left;
+    height: 100px;
+    background-color: rgb(192, 167, 130);
+    width: 400px;
+    margin-left: 40px;
+    height: 250px;
+    margin-top: 70px;
+    border-radius: 7px 50px;
+    border-style: inset;
+    background-color:  #57d8d263;
+}
+aside ul{
+    margin-top: 20px;
+}
+aside ul li{
+    padding: 5px 5px;
+    list-style: none;
+    text-decoration: none;
+}
+aside a{
+    text-decoration: none;
+}
+aside h3{
+    border-bottom: 4px  solid rgb(112, 95, 44);
+}
+article{
+    float: left;
+    background-color: #57d8d263;
+    width: 400px;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 70px;
+    border-radius: 50px 7px;
+    border-style:outset;
+}
+area ul{
+    margin-top: 15px;
+}
+article ul li{
+    padding: 5px 5px;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 40px;
+}
+article a{
+    text-decoration: none;
+}
+article h3{
+    border-bottom: 4px  solid rgb(99, 67, 9);
+}
+@media (max-width:1150px) {
+    .navbar{
+        padding: 5px 3%;
+        transform: .2s;
+    }   
+    .logo{
+        height: 190px;
+        width: 230px;
+        padding-top: 0px;
+    }
+    .menu{
+        margin-left: 170px;
+    }
+    .menu ul{
+        gap: 15px;
+    }
+    .menu ul li{
+        padding: 10px;
+        transition: .5s;
+        margin-left: px;
+        gap: 10px;
+    }
+    .marquee{
+        color: lawngreen;
+    }
+}

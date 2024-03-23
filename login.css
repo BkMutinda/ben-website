@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-color: rgb(211, 194, 95);
+    height: 100vh;
+}
+.A{
+    float: left;
+    background-color: aliceblue;
+    height: 100vh;
+    width: 300px;
+}
+.A p{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 30px;
+    margin-left: 30px;
+
+}
+.B{
+    float: left;
+
+}
+.log{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.247);
+    margin-top: 100px;
+    margin-left: 180px;
+    font-size: x-large;
+    width: 370px;
+    height: 450px;
+    border-radius: 30px;
+}
+.log input{
+    height: 30px;
+    width: 170px;
+    font-size: medium;
+}
+.log p{
+    padding-top: 20px;
+}
+
+.log a{
+    margin-top: 80px;
+    text-decoration: none;
+}
+.log button{
+    margin-top: 20px;
+    width: 70px;
+    height: 30px;
+    font-weight: bold;
+}
+.C{
+    float: right;
+    background-color: aliceblue;
+    height: 100vh;
+    width: 300px;
+}
