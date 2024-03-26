@@ -37,6 +37,15 @@ height: 100vh;
     margin-top: 10px;
     padding-top: 3px;
   }
+  .change .barA{
+    transform: translate(0,11px) rotate(-45deg);
+  }
+  .change .barB{
+    opacity: 0;
+  }
+  .change .barC{
+    transform: translate(0, -11px) rotate(45deg);
+  }
 .nav1{
     position: absolute;
     float: left;
