@@ -26,13 +26,17 @@ height: 100vh;
     margin-top: 25px; 
     color: darkorange; 
 }
-
-.logo{
-    background-image:url(logo.jpg);
-    background-repeat: no-repeat;
-    height: 183px;
-
-}
+.BARS{
+    float: left;
+    margin-left: 200px;
+  }
+  .bar1, .bar2, .bar3{
+    height: 2px;
+    width: 40px;
+    background-color: #000;
+    margin-top: 10px;
+    padding-top: 3px;
+  }
 .nav1{
     position: absolute;
     float: left;
