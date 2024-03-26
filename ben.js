@@ -20,3 +20,7 @@ var countDownDate = new Date("Sep 13, 2025 00:00:00").getTime();
                 document.getElementById("demo").innerHTML = "EXPIRED";
             }
         }, 1000);
+
+  function myFunction(x) {
+    x.classList.toggle("change");
+  }
